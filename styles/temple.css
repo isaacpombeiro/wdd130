@@ -1,0 +1,65 @@
+/* faltou uma borda maior ao redor dos textos */
+
+body {
+  /* to centralize */
+    width: 600px;
+  margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* to centralize as well */
+main {
+    width: 60%;
+    margin: auto;
+}
+
+/* not put <p> to fill the whole content box */
+header, footer {
+    background-color: #333333;
+    text-align: center;
+    color: white;
+    padding: 1px;
+    font-size: 1.2rem;
+    margin: 10px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+picture img {
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 30px gray;
+}
+
+section h2 {
+    border-bottom: 1px solid black;
+}
+
+section {
+    /* this will add some border at the edge */
+    /* margin: 10px;
+    border: 100px;
+    padding: 1px 20px;
+    display: block;
+    width: 300px;
+    background-color: lightgray; */
+    /* but im gonna use code along idea 
+    because the square will be the same
+     size as the image */
+
+     width: 90%;
+     background-color: #d4d3d3;
+     padding: 5%;
+     margin: 10px auto;
+    
+}
+
+/* indented */
+section p {
+    margin-left: 15px;
+}
+
