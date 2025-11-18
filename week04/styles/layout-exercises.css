@@ -24,33 +24,44 @@ div {
 .flex {
     background-color: #aba;
     /* write declarations here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .grid {
     background-color: #abb;
-    /* enter declarations here */
+    /* write declarations here */
+    display: grid;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .container2 {
     /* write declarations here */
-
+    display: flex;
+    justify-content: space-around;
 }
 
 .two {
+    /* write declarations here */
     background-color: #ace;
     height: 100px;
 }
 
 .container3 {
-    /* write declarations here */
 
+  display: grid;
+  grid-template-columns: repeat(autofill, minmax(150px, 1fr));
+  gap: 50px;
 }
 
 .columns-3 {
     /* write declaration here */
-
+    /* one of four */
+    grid-column: 1/4; 
 }
 
 .three {

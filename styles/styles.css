@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+header, .grid, footer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 :root {
     --primary-color: darkblue;
     font-family: "Merriweather", serif; 
@@ -12,20 +17,30 @@
 nav {
     background-color: var(--primary-color);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: var(--primary-color);
+    margin-bottom: 40px;
+    border-bottom: 1px solid var(--primary-color);
+    text-align: center;
 }
 
 main {
-    max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 main img {
@@ -43,23 +58,24 @@ p {
 }
 
 aside {
-    width: 30rem;
-    text-align: center;
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
-    width: 400px;
+    width: 100%;
     height: auto;
 }
 
 aside h2 {
     position: absolute;
-    left: 170px;
-    bottom: 210px;
+    top: 5%;
+    left: 25%;
 }
 
 footer {
-    margin-top: 10rem;
     border-top: 1px solid #000;
     text-align: center;
 }
@@ -72,6 +88,11 @@ footer {
     padding: 1rem;
     background-color: #eee;
     color: #333;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 .indent {
