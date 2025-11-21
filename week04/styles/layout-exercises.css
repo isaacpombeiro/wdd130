@@ -52,16 +52,15 @@ div {
 }
 
 .container3 {
-
-  display: grid;
-  grid-template-columns: repeat(autofill, minmax(150px, 1fr));
-  gap: 50px;
+    /* write declarations here */
+    display: grid;
+    grid-column: 1;
 }
 
 .columns-3 {
     /* write declaration here */
     /* one of four */
-    grid-column: 1/4; 
+    grid-column: 3; 
 }
 
 .three {
