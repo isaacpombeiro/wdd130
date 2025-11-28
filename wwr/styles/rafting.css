@@ -201,10 +201,6 @@ footer p {
     gap: 50px;
 }
 
-.cheat {
-    position: absolute;
-    font-size: 0px;
-}
 iframe {
     border: 0;
 }
