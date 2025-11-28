@@ -15,7 +15,7 @@
 
 header {
     display: grid;
-    grid-template-columns: 200px 400px;
+    grid-template-columns: 200px 500px;
     gap: 50px;
     align-items: center;
     justify-content: center;
@@ -66,7 +66,11 @@ li a {
 
 form {
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 75px 1fr;
+}
+
+label {
+    font-size: 12px;
 }
 
 
@@ -74,6 +78,10 @@ form {
     display: grid;
     align-items: start;
     align-items: center;
+}
+
+.text {
+    min-width: 100%;
 }
 
 input {
@@ -105,7 +113,7 @@ input {
     display: flex;
     align-items: center;
     gap: 10px;
-    min-width: 380px;
+    min-width: 100%;
 }
 
 .label-radius {
